@@ -15,43 +15,6 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that enables us
 
 ---
 
-## 📂 Project Directory Structure
-
-```text
-multer-image-upload/
-├── backend/
-│   ├── package.json               # Backend config ("type": "module")
-│   ├── server.js                  # Main Express server entry point
-│   ├── .env                       # Environment variables
-│   ├── config/
-│   │   └── db.js                  # MongoDB Mongoose connection
-│   ├── models/
-│   │   └── Image.js               # Mongoose schema (collection: 'images_data')
-│   ├── middleware/
-│   │   └── uploadMiddleware.js    # Multer diskStorage configuration
-│   ├── controllers/
-│   │   └── imageController.js     # Logic for uploadImage and getImages
-│   ├── routes/
-│   │   └── imageRoutes.js         # API endpoints (/api/images)
-│   └── uploads/                   # Local folder for physical images
-│
-└── frontend/
-    ├── package.json               # Frontend dependencies (React, Axios, Vite)
-    ├── index.html                 # Main HTML template
-    └── src/
-        ├── App.jsx                # Single-page application coordinator
-        ├── App.module.css         # Main application container styles
-        └── components/
-            ├── ImageForm.jsx      # File upload form input component
-            ├── ImageForm.module.css
-            ├── ImagePreview.jsx   # Instant browser preview component
-            ├── ImagePreview.module.css
-            ├── ImageGallery.jsx   # Uploaded images grid gallery
-            └── ImageGallery.module.css
-```
-
----
-
 ## ⚙️ Prerequisites
 
 Ensure you have the following installed on your machine:
