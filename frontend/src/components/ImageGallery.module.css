@@ -1,0 +1,38 @@
+.galleryTitle {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #222222;
+}
+
+.galleryGrid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.galleryCard {
+  text-align: center;
+}
+
+.galleryImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #dddddd;
+}
+
+.galleryImageName {
+  font-size: 12px;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top: 5px;
+  color: #555555;
+}
+
+.emptyGallery {
+  color: #777777;
+  font-style: italic;
+}
